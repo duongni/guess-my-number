@@ -14,6 +14,8 @@ body {
   font-family: "Press Start 2P", system-ui;
   color: #eee;
   background-color: #222;
+  width: 100vw;
+  height: 100vh;
 }
 h1 {
   position: absolute;
@@ -51,9 +53,9 @@ input {
   text-align: center;
 }
 footer {
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: center;
-  line-height: 1rem;
+  line-height: 1.5rem;
   position: absolute;
   bottom: 2%;
   left: 50%;
@@ -130,6 +132,9 @@ a {
   input {
     padding: 2rem 3rem;
     font-size: 2rem;
+  }
+  footer {
+    font-size: 0.65rem;
   }
   .btn {
     font-size: 1.5rem;
