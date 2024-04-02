@@ -38,27 +38,30 @@ main {
   height: 55vh;
   color: #eee;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 input {
   padding: 3rem 3rem;
   background-color: #222;
   border: 2px solid #eee;
-  color: #eee;
   font-size: 3rem;
   font-family: inherit;
   width: 65%;
   text-align: center;
 }
 footer {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   text-align: center;
   line-height: 1rem;
   position: absolute;
-  bottom: 12%;
+  bottom: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+a {
+  color: #eee;
 }
 
 .top {
@@ -105,12 +108,15 @@ footer {
 .bottom-right {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 8rem;
+  align-items: flex-start;
+  line-height: 4rem;
+  padding-right: 4rem;
 }
 
 @media (max-width: 414px) {
   html {
-    width: 90vw;
+    width: 100vw;
     height: 90vh;
   }
   h1 {
@@ -138,5 +144,10 @@ footer {
   .btn {
     padding: 1rem 2rem;
     font-size: 1.5rem;
+  }
+  .bottom-right {
+    line-height: 2rem;
+    padding-right: 1.5rem;
+    gap: 6rem;
   }
 }
