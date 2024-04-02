@@ -9,13 +9,15 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  background-color: #eee;
 }
 body {
   font-family: "Press Start 2P", system-ui;
   color: #eee;
   background-color: #222;
-  width: 100vw;
+  width: 800px;
   height: 100vh;
+  margin: 0 auto;
 }
 h1 {
   position: absolute;
@@ -31,11 +33,12 @@ header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
+  padding-top: 2rem;
 }
 
 main {
   position: relative;
-  font-size: 2rem;
+  font-size: 1.75rem;
   display: flex;
   height: 55vh;
   color: #eee;
