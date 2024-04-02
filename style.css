@@ -42,6 +42,7 @@ main {
   display: flex;
   height: 55vh;
   color: #eee;
+  text-align: center;
   align-items: center;
   justify-content: space-around;
 }
@@ -54,6 +55,7 @@ input {
   font-family: inherit;
   width: 65%;
   text-align: center;
+  color: #eee;
 }
 footer {
   font-size: 1rem;
@@ -117,6 +119,7 @@ a {
   align-items: flex-start;
   line-height: 4rem;
   padding-right: 4rem;
+  text-align: left;
 }
 
 @media (max-width: 414px) {
